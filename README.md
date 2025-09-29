@@ -28,3 +28,11 @@ Uses pretrained deep learning models for feature extraction.
 Combines computer vision techniques (Selective Search) with deep learning for object detection.
 
 Can be extended to real-time detection using video or webcam streams.
+
+Drive mounting is per user:
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+
+This prompts the user to authorize their own Google account.
